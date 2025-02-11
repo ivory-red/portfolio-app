@@ -7,7 +7,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomeView />} />
+        <Route path="/portfolio-app" element={<HomeView />} />
       </Routes>
     </BrowserRouter>
   );
